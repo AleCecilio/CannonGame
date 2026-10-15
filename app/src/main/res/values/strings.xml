@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cannon Game</string>
+
+    <!-- Strings da Figura 6.4 -->
+    <string name="results_format">Shots fired: %1$d\nTotal time: %2$.1f</string>
+    <string name="reset_game">Reset Game</string>
+    <string name="win">You win!</string>
+    <string name="lose">You lose!</string>
+    <string name="time_remaining_format">Time remaining: %.1f seconds</string>
+
+    <!-- Extras: pontuação, combo e ranking local -->
+    <string name="score_format">Score: %d</string>
+    <string name="combo_format">Combo x%d</string>
+    <string name="best_format">Best: %d</string>
+    <string name="score_results_format">Score: %1$d\nBest: %2$d</string>
+    <string name="new_record">New record!</string>
+    <string name="top_rank_format">You are #%d in the local Top 5!</string>
+</resources>
