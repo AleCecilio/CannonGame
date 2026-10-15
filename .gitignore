@@ -1,0 +1,29 @@
+# Android Studio / Gradle
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+# Chaves e credenciais
+*.jks
+*.keystore
+google-services.json
+# Python (scripts em tools/)
+__pycache__/
+*.pyc
+# Arquivos do material da disciplina (não versionar)
+*.pdf
+*.zip
