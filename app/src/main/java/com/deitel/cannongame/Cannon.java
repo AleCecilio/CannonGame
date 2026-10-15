@@ -60,6 +60,9 @@ public class Cannon {
 
    // desenha o canhão no Canvas
    public void draw(Canvas canvas) {
+      // ajusta a cor conforme o tema (clara no modo noturno, preta no modo dia)
+      paint.setColor(view.isNightMode() ? Color.LTGRAY : Color.BLACK);
+
       // desenha o cano do canhão
       canvas.drawLine(0, view.getScreenHeight() / 2, barrelEnd.x,
          barrelEnd.y, paint);

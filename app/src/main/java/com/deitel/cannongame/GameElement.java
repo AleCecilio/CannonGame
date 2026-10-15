@@ -23,6 +23,16 @@ public class GameElement {
       this.velocityY = velocityY;
    }
 
+   // obtém a velocidade vertical
+   public float getVelocityY() {
+      return velocityY;
+   }
+
+   // define a velocidade vertical
+   public void setVelocityY(float velocityY) {
+      this.velocityY = velocityY;
+   }
+
    // atualiza a posição do GameElement e verifica colisões com as paredes
    public void update(double interval) {
       // atualiza a posição vertical

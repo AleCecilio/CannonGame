@@ -3,6 +3,7 @@
 package com.deitel.cannongame;
 
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Rect;
 
 public class Cannonball extends GameElement {
@@ -58,6 +59,7 @@ public class Cannonball extends GameElement {
    // desenha a Cannonball no Canvas recebido
    @Override
    public void draw(Canvas canvas) {
+      paint.setColor(view.isNightMode() ? Color.WHITE : Color.BLACK);
       canvas.drawCircle(shape.left + getRadius(),
          shape.top + getRadius(), getRadius(), paint);
    }
