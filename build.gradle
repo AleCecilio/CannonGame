@@ -1,4 +1,4 @@
 // Arquivo de build de nível superior
 plugins {
-    id 'com.android.application' version '9.4.1' apply false
+    id 'com.android.application' version '9.3.0' apply false
 }

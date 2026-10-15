@@ -25,7 +25,7 @@ public class Target extends GameElement {
       this.hitReward = hitReward;
       this.initialX = x; // guarda a posição X inicial
       this.originalColor = color;
-      // Define cor neon vibrante (CYAN / MAGENTA) para alto contraste no escuro
+      // cor do alvo no modo noturno
       this.neonColor = (color == view.getResources().getColor(R.color.dark, view.getContext().getTheme()))
          ? Color.CYAN : Color.MAGENTA;
       paint.setAlpha(0); // inicia transparente para o efeito de Fade In
