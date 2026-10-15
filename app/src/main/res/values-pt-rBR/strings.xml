@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cannon Game</string>
+
+    <string name="results_format">Tiros disparados: %1$d\nTempo total: %2$.1f</string>
+    <string name="reset_game">Reiniciar jogo</string>
+    <string name="win">Você venceu!</string>
+    <string name="lose">Você perdeu!</string>
+    <string name="time_remaining_format">Tempo restante: %.1f segundos</string>
+
+    <string name="score_format">Pontos: %d</string>
+    <string name="combo_format">Combo x%d</string>
+    <string name="best_format">Recorde: %d</string>
+    <string name="score_results_format">Pontuação: %1$d\nRecorde: %2$d</string>
+    <string name="new_record">Novo recorde!</string>
+    <string name="top_rank_format">Você está em #%d no Top 5 local!</string>
+</resources>
