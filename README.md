@@ -206,6 +206,7 @@ python3 tools/generate_sounds.py
 Capturas de tela do aplicativo em execução serão disponibilizadas no diretório `docs/screenshots/`.
 
 ![Jogo em execução](docs/screenshots/jogo.gif)
+![Ecrã Final](docs/screenshots/ecra_final.png)
 
 ## Créditos e referências
 
